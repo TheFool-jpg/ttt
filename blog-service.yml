@@ -5,9 +5,9 @@ spring:
   application:
     name: blog-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/blog_db
-    username: blog_user
-    password: blog_password
+    url: jdbc:postgresql://localhost:5432/foodr_db
+    username: foodr_user
+    password: foodr_password
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:

@@ -5,9 +5,9 @@ spring:
   application:
     name: order-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/order_db
-    username: order_user
-    password: order_password
+    url: jdbc:postgresql://localhost:5432/foodr_db
+    username: foodr_user
+    password: foodr_password
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:

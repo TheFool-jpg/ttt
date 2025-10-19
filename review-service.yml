@@ -5,9 +5,9 @@ spring:
   application:
     name: review-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/review_db
-    username: review_user
-    password: review_password
+    url: jdbc:postgresql://localhost:5432/foodr_db
+    username: foodr_user
+    password: foodr_password
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
