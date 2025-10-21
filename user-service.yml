@@ -5,7 +5,7 @@ spring:
   application:
     name: user-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/foodr_db
+    url: jdbc:postgresql://postgres:5432/foodr_db
     username: foodr_user
     password: foodr_password
     driver-class-name: org.postgresql.Driver
